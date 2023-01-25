@@ -6,46 +6,12 @@ In the first version (1.1) of the file I created tables and visualized data to f
 
 ## Description of files
 **Travel data 2010-2020 YT.pdf** includes code, plots, and the summary of the results.  
-**Plots** folder includes all plots from this analysis.
-
-## Summary
-* The number of flights exceeded or were equal to 40 in **2011, 2012, 2013 and 2019**.
-* The majority of the flights were taken on **Sunday**. Otherwise, it is quite even across the entire week.
-* In 2010-2020 the most popular month to travel or the highest number of connections was in **November** with 45 flights, then **May** with 36, and **August** with 33. 
-* The overwhelming number of flights were taken on **Delta** 113, then **United** 81, **Southwest** 55, and **American** 23. 
-* **Delta** was the most popular airline for 6 years, then **Southwest** for 3 years, and **United** for 2.
-* The most popular departure/layover was **Atlanta** and **Omaha** with 52 flights each followed by **Chicago** with 30. The most popular arrival/layover was **Omaha** with 53 flights and **Atlanta** with 51 followed by Chicago with 30.
-* The most expensive day to fly in my data set was **Monday** with the price of **$733** averaged across 10 years, all airlines, and months.
-* The most expensive year to fly in my data set was **2019** followed by 2018 and 2012. The cheapest year was **2020** with only handful number of flights because of the pandemic.
-* The most expensive month to fly in the period 2010-2020 was **June**, and it was almost twice as expensive as the next one on the list - **December**. The cheapest month to fly was **September**.
-
-## Contributor
-Yulia Tyukhova
-
----
-title: "Flights 2010-2020 version 1.1"
-author: "Yulia Tyukhova"
-date: "January 17, 2023"
-output:
-  pdf_document: default
-  html_document: default
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
+**Plots** folder includes all plots from this analysis.  
+This file contains code performed on the data.
+**Summary** is located at the bottom of this file.
 
 ## Introduction
 Below I explore my cleaned-up 2010-2020 flight data set that contains personal and business flights. The data set contains 5 variables - **Date, Departure, Destination, PriceDOLLARS, and Airline** - displayed as a heading with 329 observations. Code below is focused on basic visualization of different patterns such as, for example, the cheapest day to fly averaged across 10 years and other variables based on 1 person's data.
-
-
-```{r echo=FALSE,results="hide", out.width='25%',fig.align = "center"}
-knitr::include_graphics('./IMG_0681.JPG')
-out.extra='angle=90'
-## Including an image
-
-```
 
 ## Data Preparation
 
@@ -409,7 +375,7 @@ The most expensive month to fly in the period of 2010-2020 was **June**, and it 
 * The most expensive year to fly in my data set was **2019** followed by 2018 and 2012. The cheapest year was **2020** with only handful number of flights because of the pandemic.
 * The most expensive month to fly in the period 2010-2020 was **June**, and it was almost twice as expensive as the next one on the list - **December**. The cheapest month to fly was **September**.
 
-
-
+## Contributor
+Yulia Tyukhova
 
 
