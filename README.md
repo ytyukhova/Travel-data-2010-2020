@@ -7,7 +7,7 @@ In the first version (1.1) of the file I created tables and visualized data to f
 ## Description of files
 **Travel data 2010-2020 YT.pdf** includes code, plots, and the summary of the results.  
 **Plots** folder includes all plots from this analysis.  
-This file contains code performed on the data.
+This file contains code performed on the data.  
 **Summary** is located at the bottom of this file.
 
 ## Introduction
