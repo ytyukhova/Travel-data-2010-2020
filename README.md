@@ -6,6 +6,7 @@ In the first version (1.1) of the file I created tables and visualized data to f
 
 ## Description of files
 **Travel data 2010-2020 YT.pdf** includes code, plots, and the summary of the results.
+**Plots** folder includes all plots from this analysis.
 
 ## Summary
 * The number of flights exceeded or were equal to 40 in **2011, 2012, 2013 and 2019**.
